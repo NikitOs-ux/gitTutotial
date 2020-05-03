@@ -1,20 +1,20 @@
-var el_1=document.getElementById('some-block');
-var el_2=document.getElementsByTagName('div');
-
-function change(Element){
-	Element.innerHTML = 'Here is some content';
-}
-
-function collection(Elements){
-	for (var i=0; i < Elements.length; i++){
-		Elements[i].innerHTML = 'text';
-	}
-}
-
-var block = document.getElementsByTagName('div');
-console.log(block);
-var google = document.getElementById('some-block');
-
-function display(){
-	google.style.display= 'none';
+//function fun1(){
+//	var chek;
+//chek = document.getElementById('one');
+//
+//if(chek.checked){
+//	alert('Yes');
+//}
+//else
+//	{
+//		alert('No');
+//	}
+//}
+function fun1(){
+	var rad=document.getElementsByName('r1');
+	for(var i=0; i < rad.length; i++){
+		if (rad[i].checked){
+			alert('Выбран '+i+' элемент');
+		}
+	}  
 }
