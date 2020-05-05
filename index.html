@@ -3,15 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<input type="radio" name="r1" value="5" >0
-	<input type="radio" name="r1" value="4" >1
-	<input type="radio" name="r1" value="3" >2
-	
-	<button onclick="fun1();">Проверка</button>
-	
-	
+<input type="range" min="0" max="100" step="1" oninput="fun1();" value="0" id="r1" >
+<p id="one"></p>
+
+<select name="" id="">
+	<option value="">1</option>
+	<option value="">2</option>
+	<option value="">3</option>
+	<option value="">4</option>
+</select>
 	<script src="script.js"></script>
 </body>
 </html>
